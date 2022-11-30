@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
+import Switch from 'react-switch'
+import { ThemeContext } from '../App'
 
 function Navbar() {
+    const { statusTheme, setStatusTheme } = useContext(ThemeContext)
   return (
     <nav>
+        <span>Mode [{statusTheme}]</span>
         <div>
-            Mode [Light]
-        </div>
-        <div>
-
+            <Switch />
         </div>
     </nav>
   )

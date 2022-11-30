@@ -1,19 +1,15 @@
-import dark from '../images/dark.svg'
+import dark from "../images/dark.svg";
+import light from "../images/light.svg";
 
 export const Content = () => {
   return (
-    <main>
+    <header>
       <div>
-        <h1>
-          Natchapol K <br />
-          Official
-        </h1>
-        <h3>DarkMode Workshop</h3>
+        <h1>Natchapol K Official</h1>
+        <h6 style={{ marginTop:'2rem' }}>DarkMode Workshop</h6>
       </div>
-      <div>
-        <img src={dark} alt="Logo"/>
-      </div>
-    </main>
+      <img src={light} alt="Logo" />
+    </header>
   );
 };
 
