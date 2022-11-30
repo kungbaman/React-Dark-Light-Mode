@@ -7,7 +7,7 @@ import { createContext, useState } from 'react';
 export const ThemeContext = createContext()
 
 function App() {
-  const [statusTheme, setStatusTheme] = useState("Dark")
+  const [statusTheme, setStatusTheme] = useState("Light")
   return (
     <ThemeContext.Provider value={{ statusTheme, setStatusTheme }}>
       <div>

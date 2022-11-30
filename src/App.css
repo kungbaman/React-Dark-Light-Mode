@@ -29,7 +29,30 @@ nav {
     align-items: center;
 }
 
+.boxnav {
+    display: flex;
+    gap: 2rem;
+}
+
 header img {
     width: 40%;
+}
+
+nav.dark{
+    background: #121213;
+    color: orange;
+}
+
+header.dark {
+    background: #121213;
+    color: #fff;
+}
+
+header.dark h6 {
+    color: orange;
+}
+
+img.dark {
+    color: orange;
 }
 
